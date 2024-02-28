@@ -1,0 +1,117 @@
+body {
+    background-color: #FEFAEF !important;
+}
+
+.center-card {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.complete-card {
+    display: flex;
+    height: 50%;
+    width: 50%;
+}
+
+.leftside-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #27355C;
+}
+
+.rightside-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('./img/brainbg.jpg');
+    object-fit: cover;
+    background-position-x: center;
+    background-position-y: center;
+    flex: 1;
+    width: 80%;
+}
+
+.headline {
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.text {
+    width: 75%;
+    text-align: center;
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: column;
+}
+
+.start-btn {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.button-area {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding: 24px;
+}
+
+.questions {
+    width: 80%;
+}
+
+.answer-single {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    background-color: white;
+    padding: 12px;
+    margin-top: 16px;
+}
+
+.letter-for-answer {
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 16px;
+    height: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.next-question {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#myProgress {
+    width: 100%;
+    background-color: grey;
+    position: absolute;
+    top: 0;
+}
+
+#myBar {
+    width: 1%;
+    height: 30px;
+    background-color: green;
+}
+
+.quiz-asnwer-card:hover {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.1);
+}
